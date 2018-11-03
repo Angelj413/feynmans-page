@@ -9,15 +9,20 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="css/mystyle.css">
 		<link href="https://fonts.googleapis.com/css?family=Poppins|Rock+Salt" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700i" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="css/mystyle.css">
+		<script>document.documentElement.className = 'js';</script>
 		<title>Feynman's</title>
 	</head>
 	<body>      
 		<!-- HERO INIT -->
-		<div id="heroFront" class="container-fluid p-0">
-			<div class="overlay-hero"></div>
-			<div class="row justify-content-start">
+		<div id="heroFront" class="container-fluid p-0 position-relative">
+			<div class="overlay-hero position-absolute"></div>
+			<div class="row justify-content-start position-absolute content-nav">
 				<ul class="d-flex align-items-top justify-content-start m-0 pl-0 w-100 position-absolute navbar_list pl-4">
 					<a class="" href="#">
 						<li class="">
@@ -46,15 +51,42 @@
 					</a>
 				</ul>
 			</div>
-			<div class="row">
+			<div class="row position-absolute w-100">
 				<div class="inner-container">
 					<h1>Feynman's Technologies</h1>
 					<h2>Somos todo lo que necesitas para crecer...</h2>
 					<a href="#" class="btn">Ver más</a>
 				</div>
 			</div>
-		</div>
+			<div class="content-video position-absolute h-100 w-100">
+				<video src="video/escribir.mp4" autoplay="true" loop="true" class="video-hero"></video>
+			</div>
 		
+		</div>
+		<div id="section7" class="container my-5">
+			<div class="row justify-content-center mt-4">
+				<h2 class="text-center f-farray">Porqué Feynman's? </h2>
+				<div class="d-flex flex-row justify-content-around cards">
+					<div class="d-flex flex-column justify-content-center align-items-center card">
+						<i class="fas fa-star"></i>
+						<h4 class="f-farray mb-4">Excelencia</h4>
+						<p class="text-center">SEO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center card">
+						<i class="fas fa-thumbs-up"></i>
+						<h4 class="f-farray mb-4">Calidad</h4>
+						<p class="text-center">SEO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center card">
+						<i class="fas fa-sort-amount-up"></i>
+						<h4 class="f-farray mb-4">Crecimiento</h4>
+						<p class="text-center">SEO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
+					</div>
+					<!-- <div class="p-2 bd-highlight">Flex item 2</div>
+					<div class="p-2 bd-highlight">Flex item 3</div> -->
+				</div>
+			</div>
+		</div>
 		<!-- Section 1 -->
 		<!-- <div id="section1" class="container">
 			<div class="row justify-content-center mt-4">
@@ -92,13 +124,13 @@
 			<div class="row h-100">
 				<div class="col-6 w-100 h-100 align-items-center content-father-1">
 					<div class="mt-5 text-center content-child">
-						<h3 class="mt-5 pt-5">Desarrollo Web y Móvil <i class="fas fa-code" style="color: #512DA8"></i></h3>
+						<h3 class="mt-5 pt-5 f-farray">Desarrollo Web y Móvil <i class="fas fa-code" style="color: #512DA8"></i></h3>
 						<p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
 
 					</div>
 				</div>
 				<div class="col-6">
-					<img src="img/responsive.png" class="img-fluid" alt="">	
+					<img src="img/responsive3.png" class="img-fluid" alt="">	
 				</div>
 			</div>
 		</div>
@@ -111,7 +143,7 @@
 				</div>
 				<div class="col-6 w-100 h-100 align-items-center content-father-1">
 					<div class="mt-5 text-center content-child">
-						<h3 class="mt-5 pt-5">Posicionamiento Web SEO <i class="fas fa-mouse-pointer" style="color: #512DA8"></i></h3>
+						<h3 class="mt-5 pt-5 f-farray">Posicionamiento Web SEO <i class="fas fa-mouse-pointer" style="color: #512DA8"></i></h3>
 						<p class="mt-4">SEO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
 
 					</div>
@@ -125,7 +157,7 @@
 				<div class="col-12 w-100 align-items-center mb-5 content-father-1 mb-5">
 					<div class="text-center w-100 h-100 content-child mb-5">
 						<img src="img/redes2.png" class="img-fluid" alt="">	
-						<h3 class="">Marketing y Estrategia Digital <i class="fas fa-map-pin" style="color: #512DA8"></i></h3>
+						<h3 class="f-farray">Marketing y Estrategia Digital <i class="fas fa-map-pin" style="color: #512DA8"></i></h3>
 						<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
 
 					</div>
@@ -139,8 +171,130 @@
 			</div>
 		</div>
 
+		<!-- Seccion 5 -->
+		
+		<div id="section5" class="container-fluid mt-5">
+			<div class="row h-100 content-father-1">
+				<div class="col-6 p-0 content-child-1">
+					<div class="overlay h-100 d-flex justify-content-center align-items-center">
+						<h2 class="title text-center f-farray">Lorem Ipsum</h2>
+					</div>
+					<img src="img/code2.jpg" alt="codigo" class="img-fluid h-100 w-100">
+				</div>
+				<div class="col-6 bg-negro d-flex justify-content-center align-items-center content-child-2">
+					<p class="text-center f-color p-5 my-5">SEO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Seccion 6 -->
+		
+		<div id="section6" class="container-fluid">
+			<div class="row h-100 content-father-1">
+				<div class="col-6 bg-negro d-flex justify-content-center align-items-center content-child-2">
+					<p class="text-center f-color p-5 my-5">SEO Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit et dolor feugiat laoreet vitae a velit. Integer vulputate rutrum euismod. Phasellus hendrerit auctor laoreet.</p>
+				</div>
+				<div class="col-6 p-0 content-child-1">
+					<div class="overlay h-100 d-flex justify-content-center align-items-center">
+						<h2 class="title text-center f-farray">Lorem Ipsum</h2>
+					</div>
+					<img src="img/apps.jpg" alt="codigo" class="img-fluid h-100 w-100">
+				</div>
+			</div>
+		</div>
+
+		<!-- SERVICIOS (PACKS) -->
+
+		<div class="container-fluid demo-2 px-0">
+			
+			<svg class="hidden">
+				<symbol id="icon-caret" viewBox="0 0 24 24">
+					<title>caret</title>
+					<polygon points="15.7,16.6 11.1,12 15.7,7.4 14.3,6 8.3,12 14.3,18"/>
+				</symbol>
+			</svg>
+			<main class="view">
+				<div class="content">
+					<h1 class="f-farray">Servicios y Precios</h1>
+					
+				</div>
+				<nav class="tabsnav tabsnav--vertical tabsnav--zeru">
+					<div class="tabsnav__item">
+						<div class="tabsnav__bar"></div>
+						<h3 class="tabsnav__title">Estrategia</h3>
+					</div>
+					<div class="tabsnav__item">
+						<div class="tabsnav__bar"></div>
+						<h3 class="tabsnav__title">Desarrollo</h3>
+					</div>
+					<div class="tabsnav__item">
+						<div class="tabsnav__bar"></div>
+						<h3 class="tabsnav__title">Paquetes</h3>
+					</div>
+				</nav>
+
+				<div class="tabscontent">
+					<div class="tabscontent__item">
+						<div class="column">
+							<h3 class="column__title">05/10/2017</h3>
+							<h4 class="column__text">amphiphilic</h4>
+							<h4 class="column__text">magnitude</h4>
+							<h4 class="column__text">saponification</h4>
+							<h4 class="column__text">velocity</h4>
+							<h4 class="column__text">gaussian</h4>
+						</div>
+						<div class="column">
+							<h3 class="column__title">05/22/2017</h3>
+							<h4 class="column__text">geocentric</h4>
+							<h4 class="column__text">neutrophil</h4>
+							<h4 class="column__text">hematocrit</h4>
+							<h4 class="column__text">ionization</h4>
+							<h4 class="column__text">energetic</h4>
+						</div>
+					</div>
+					<div class="tabscontent__item">
+						<div class="column">
+							<h3 class="column__title">03/09/2017</h3>
+							<h4 class="column__text">velocity</h4>
+							<h4 class="column__text">gaussian</h4>
+							<h4 class="column__text">amphiphilic</h4>
+							<h4 class="column__text">magnitude</h4>
+							<h4 class="column__text">saponification</h4>
+						</div>
+						<div class="column">
+							<h3 class="column__title">07/23/2017</h3>
+							<h4 class="column__text">hematocrit</h4>
+							<h4 class="column__text">ionization</h4>
+							<h4 class="column__text">geocentric</h4>
+							<h4 class="column__text">neutrophil</h4>
+							<h4 class="column__text">energetic</h4>
+						</div>
+					</div>
+					<div class="tabscontent__item">
+						<div class="column">
+							<h3 class="column__title">03/11/2017</h3>
+							<h4 class="column__text">saponification</h4>
+							<h4 class="column__text">velocity</h4>
+							<h4 class="column__text">ionization</h4>
+							<h4 class="column__text">geocentric</h4>
+							<h4 class="column__text">magnitude</h4>
+						</div>
+						<div class="column">
+							<h3 class="column__title">09/17/2017</h3>
+							<h4 class="column__text">energetic</h4>
+							<h4 class="column__text">hematocrit</h4>
+							<h4 class="column__text">gaussian</h4>
+							<h4 class="column__text">amphiphilic</h4>
+							<h4 class="column__text">neutrophil</h4>
+						</div>
+					</div>
+					<button class="btn btn--back"><svg class="icon icon--caret"><use xlink:href="#icon-caret"></use></svg></button>
+				</div>
+			</main>
+		</div>
+
 		<!-- PARALLAX1 -->
-		<div class="parallax1 mt-5">
+		<div class="parallax1">
 			<div class="parallax-child">
 				<div class="offset-7 col-5">
 					<p class="mt-5 pt-5 pr-5">“Es responsabilidad nuestra hacer lo que podamos, aprender lo que podamos, mejorar las soluciones y transmitirlas a nuestros sucesores” <br><br> <h4 class="pr-5">Richard Feynman</h4></p>
@@ -148,6 +302,7 @@
 			</div>
 		</div>
 
+		<!-- FOOTER -->
 		<div class="container-fluid footer">
 			<div class="d-flex flex-row justify-content-center h-100 align-items-center footer-child ">
 				<div class="col text-center presentation py-5"></i> Feynman's <br> Techonologies</div>
@@ -168,5 +323,9 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/anime.min.js"></script>
+	<script src="js/enquire.min.js"></script>
+	<script src="js/tabsnav.js"></script>
+	<script src="js/demo2.js"></script>
   </body>
 </html>

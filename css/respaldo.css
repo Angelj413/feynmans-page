@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	background: #eeeeee;
+	font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+font-family: FARRAY;
+src: url(../fonts/FARRAY.otf);
+}
+
+/* CLASES GENERICAS */
+
+.bg-negro{
+	background: #212121;
+}
+
+.f-farray{
+	font-family: FARRAY;
+}
+
+.f-color{
+	color: #eeeeee;
+}
+
+/*
+############################################
+############################################
+#######         HERO INIT     ##############
+############################################
+############################################
+*/
+.navbar_list a{
+	text-decoration: none;
+	width: 100px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navbar_list a{
+	border: 3px solid transparent;
+	border-radius: 10%;
+	transition: border 0.2s ease-in-out;
+}
+
+.navbar_list a:hover{
+	border: 3px solid #eeeeee;
+	transition: border 0.3s ease-in;
+}
+
+.navbar_list a li{
+	color: white;
+	list-style: none;
+	font-size: 1em;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+
+.navbar_list a:hover li{
+	color: #4527a0;
+	transition: color 0.2s ease-in;
+}
+
+#heroFront{
+	background-image: url("../img/laptop1.jpg");
+	height: 90vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.inner-container{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	color: white;
+	height: auto;
+	margin-top: 150px;
+}
+
+.inner-container h1{
+	font-size: 6em;
+	font-family: 'FARRAY', sans-serif; 
+}
+
+.inner-container h2{
+	margin-top: 10px;
+	font-size: 1.7em;
+	text-align: center;
+	font-weight: 400;
+}
+
+.innner-container a{
+	margin-top:  50px;
+	font-size: 1.3em;
+}
+
+.inner-container .btn{
+	display: inline-block;
+	width: 200px;
+	font-weight: bold;
+	padding: 19px;
+	color: #eeeeee;
+	border: 4px solid #eeeeee;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.inner-container .btn:hover, .inner-container .btn:active{
+	background-color: #eeeeee;
+	color: #4527a0;
+	transition: background-color 0.3s ease-in, color 0.2s ease-in;
+}
+
+.overlay-hero{
+	position: absolute;
+	width: 100%;
+	height: 90vh;
+	background: -webkit-linear-gradient(bottom left, rgba(104,58,183,0.51) 0%, rgba(77,182,172,0.61) 100%);
+	background: -o-linear-gradient(bottom left, rgba(104,58,183,0.51) 0%, rgba(77,182,172,0.61) 100%);
+	background: linear-gradient(to top right, rgba(104,58,183,0.51) 0%, rgba(77,182,172,0.61) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#683ab7', endColorstr='#4db6ac', GradientType=1 );
+}
+
+/*
+############################################
+############################################
+*/
+
+
+/*
+############################################
+############################################
+#######         SECTION 1      #############
+############################################
+############################################
+*/
+
+#section1{
+	height: 50vh;
+}
+
+#section1 .border-secondary{
+	border-color: #00796B!important;
+}
+
+#section1 .card-header {
+	background-color: rgba(0, 150, 136, .8);
+	color:#eeeeee;
+}
+
+/*
+############################################
+############################################
+*/
+
+
+/*
+############################################
+############################################
+#######         SECTION 2      #############
+############################################
+############################################
+*/
+
+#section2{
+	height: 50vh;
+}
+
+#section2 .content-father-1{
+	/*background: url(../img/triangulos.png);*/
+}
+
+#section2 .content-father-1 .content-child{
+	background:#eeeeee;
+}
+
+
+/*
+############################################
+############################################
+*/
+
+
+/*
+############################################
+############################################
+#######         SECTION 3      #############
+############################################
+############################################
+*/
+
+#section3{
+	height: 50vh;
+}
+
+#section3 .content-father-1{
+	/*background: url(../img/triangulos.png);*/
+}
+
+#section3 .content-father-1 .content-child{
+	background:#eeeeee;
+}
+
+
+/*
+############################################
+############################################
+*/
+
+
+/*
+############################################
+############################################
+#######         SECTION 4      #############
+############################################
+############################################
+*/
+
+#section4{
+	height: 60vh;
+}
+
+#section4 .content-father-1{
+	/*background: url(../img/triangulos.png);*/
+}
+
+#section4 .content-father-1 .content-child{
+	background:#eeeeee;
+}
+
+#section4 .content-father-1 .content-child img{
+	height: 300px;
+}
+
+/*
+############################################
+############################################
+*/
+
+/*
+############################################
+############################################
+#######         SECTION 5      #############
+############################################
+############################################
+*/
+
+#section5{
+	height: 70vh;
+}
+
+#section5 .content-father-1 .content-child-1{
+	position: relative;
+}
+
+#section5 .content-father-1 .content-child-1 .overlay{
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	height: 70vh;
+	width: 100%;
+	z-index: 2;
+	background: -webkit-linear-gradient(left, rgba(0,0,0,0.79) 1%, rgba(0,0,0,0.48) 34%, rgba(42,7,74,0.16) 67%, rgba(83,13,148,0.16) 100%);
+	background: -o-linear-gradient(left, rgba(0,0,0,0.79) 1%, rgba(0,0,0,0.48) 34%, rgba(42,7,74,0.16) 67%, rgba(83,13,148,0.16) 100%);
+	background: linear-gradient(to right, rgba(0,0,0,0.79) 1%, rgba(0,0,0,0.48) 34%, rgba(42,7,74,0.16) 67%, rgba(83,13,148,0.16) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#530d94', GradientType=1 );
+}
+
+#section5 .content-father-1 .content-child-1 .overlay .title{
+	font-family: FARRAY;
+	color: #eeeeee;
+}
+
+#section5 .content-father-1 .content-child-2 p{
+	border: 2px dashed #00796B;
+}
+
+
+/*
+############################################
+############################################
+*/
+
+/*
+############################################
+############################################
+#######         SECTION 6      #############
+############################################
+############################################
+*/
+
+#section6{
+	height: 70vh;
+}
+
+#section6 .content-father-1 .content-child-1{
+	position: relative;
+}
+
+#section6 .content-father-1 .content-child-1 .overlay{
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	height: 70vh;
+	width: 100%;
+	z-index: 2;
+	background: -webkit-linear-gradient(left, rgba(0,121,107,0.13) 0%, rgba(0,40,35,0.93) 67%, rgba(0,0,0,0.93) 100%);
+	background: -o-linear-gradient(left, rgba(0,121,107,0.13) 0%, rgba(0,40,35,0.93) 67%, rgba(0,0,0,0.93) 100%);
+	background: linear-gradient(to right, rgba(0,121,107,0.13) 0%, rgba(0,40,35,0.93) 67%, rgba(0,0,0,0.93) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00796b', endColorstr='#000000', GradientType=1 );	
+}
+
+#section6 .content-father-1 .content-child-1 .overlay .title{
+	font-family: FARRAY;
+	color: #eeeeee;
+}
+
+#section6 .content-father-1 .content-child-2 p{
+	border: 2px dashed #673AB7;
+}
+
+
+/*
+############################################
+############################################
+*/
+
+/*
+############################################
+############################################
+#######         PARALLAX 1      ############
+############################################
+############################################
+*/
+
+.parallax1{
+	height: 400px;
+	position: relative;
+	background: url("../img/feynman.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.parallax1 .parallax-child{
+	color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: end;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.12) 9%, rgba(0,0,0,1) 78%);
+	background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(0,0,0,0.12) 9%, rgba(0,0,0,1) 78%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(0,0,0,0.12) 9%, rgba(0,0,0,1) 78%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=1 );
+}
+
+/*
+############################################
+############################################
+*/
+
+
+/*
+############################################
+############################################
+#######         FOOTER       ############
+############################################
+############################################
+*/
+
+.footer{
+	height: 40vh;
+	color: white;
+	background: #212121;
+}
+
+.footer .footer-child .presentation{
+	font-family: FARRAY;
+	border: 2px dashed #00796B;
+}
+
+.footer .footer-child .redes a {
+	text-decoration: none;
+}
+
+.footer .footer-child .redes a img{
+	width: 100px;
+	height: 100px;
+}
+
