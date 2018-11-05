@@ -152,7 +152,7 @@ a:focus {
 	z-index: 1001;
 	top: 0;
 	left: 0;
-	display: flex;
+	/*display: flex;*/
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
@@ -235,7 +235,7 @@ a:focus {
 }
 
 .column__title {
-	color: #ff764b;
+	/*color: #ff764b;*/
 }
 
 .column__text {
@@ -253,9 +253,10 @@ a:focus {
 }
 
 .demo-2 .content {
-	/*background-image: url(../img/workarea.jpg);*/
+	/*background-image: url(../img/escritorio4.jpg);*/
+	/*filter: grayscale(50);*/
 }
-
+	
 .demo-2 .codrops-header__info::after {
 	content: '02';
 	color: #fff;
@@ -277,7 +278,7 @@ a:focus {
 }
 
 .demo-2 .btn--back {
-	color: #ff764b;
+	/*color: #ff764b;*/
 }
 
 .box {
